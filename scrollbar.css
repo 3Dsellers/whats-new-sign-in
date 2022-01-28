@@ -1,19 +1,20 @@
 .whatsnewdiv ::-webkit-scrollbar-track
 {
 	border: 5px solid white;
-	// border color does not support transparent on scrollbar
-	// border-color: transparent;
-	background-color: #b2bec3;
+	border-top: 0;
+	border-bottom: 0;
+	border-right-color: #f5f7f8;
 }
 
 .whatsnewdiv ::-webkit-scrollbar
 {
-	width: 15px;
-	background-color: #dfe6e9;
+	width: 12px;
+	min-height: 100%!important;
+	background-color: #f5f7f8;
 }
 
 .whatsnewdiv ::-webkit-scrollbar-thumb
 {
-	background-color: #74b9ff;
+	background-color: #4285f4;
 	border-radius: 10px;
 }
